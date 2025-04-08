@@ -9,7 +9,7 @@ export default function Home() {
     >
       <appkit-button />
       <button
-        className="px-3 py-2 bg-white text-black rounded-full"
+        className="px-3 py-2 bg-white text-black rounded-full cursor-pointer"
         onClick={() => {
           openTransactionModal({
             integratorId: '575bbf79c59ccd523ef1',
